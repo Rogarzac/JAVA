@@ -13,7 +13,7 @@ public static void main (String[] args) {
 	do {
 		System.out.println(cuenta);
 		cuenta++;
-	} while(cuenta < 0);//Output: 1 ya que s eejecuto al menos una vez 
+	} while(cuenta <= 10);//Output: 1 ya que s eejecuto al menos una vez 
 	
 	/*
 	 * Crear un programa para un cajero bancario

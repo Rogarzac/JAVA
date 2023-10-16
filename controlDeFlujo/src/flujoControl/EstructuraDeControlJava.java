@@ -11,6 +11,7 @@ public class EstructuraDeControlJava {
 		String citaProgramada = null; // Dejamos en null y despues lo cambiamos a una fecha "28-09-23"
 		//La variable declarada, se inicia en null a proposito para tener un espacio de memoria ya asignado y solo reemplazarlo con un nuevo dato.
 		
+
 		if(citaProgramada != null) {
 			System.out.println("ya hay una cita programada un disculpita."); //Por que la variable ya esta ocupada o llena
 		} else {

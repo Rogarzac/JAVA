@@ -52,7 +52,7 @@ public class Test {
 		Dentista DrChapatin = new Dentista("Dr.Chapatin", "Chespirito", (byte)45, "11223344", "chapatin@gmail.com","General","666123455", "Consultorio 200", "avanzado", "matutino", 450);
 			//Luego la agrego a la lista 
 		listaDentistasArraysList.add(DrChapatin);
-		
+	
 		//Si agrego la instancia a una variable, puedo imprimir su informacion usando un toString, o un metodo mostrarInfo();
 		
 		
@@ -64,7 +64,7 @@ public class Test {
 		listaDentistasArraysList.add(new Dentista("Dr.Simi", "Lares", (byte)50, "123456789", "simi@lares.com", "Odontologia", "55113344","500","avanzado", "matutino", 500));
 		
 		//Si genero la instancia y agrego directa,ente al arrayList, para sacar el dato tendre que utilizar un forech o algun ciclo para imprimir dato pro dato 
-		
+		System.out.println(listaDentistasArraysList + "******");
 		//Implementacion de lista de dentista con un HashSet
 		Set<Dentista> conjuntoDentista = new HashSet<>();
 		

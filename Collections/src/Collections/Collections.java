@@ -9,7 +9,7 @@ import java.util.HashSet;
 
 public class Collections {
 	public static void main(String[] args) {
-	  /*  //Array
+	   //Array
 		String[] listaDeCompras = new String[] { "Leche","Pan", "Huevos"};
 		System.out.println(listaDeCompras);
 		
@@ -22,7 +22,7 @@ public class Collections {
 		
 		///implementacion de un arrayList
 		 ///Clase General (interfaz), tipo de dato que usare, nombre de mi estructura de datos, instancia de dicha clase general
-		  * */
+		  
 		  
 		 List<String> listaDeContactos = new ArrayList<>();
 		 
